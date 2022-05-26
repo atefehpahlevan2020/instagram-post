@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.Post {
+    width: 500px;
+    margin: 30px auto;
+    background-color: white;
+}
+.Post-header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.Post-header-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 30px 0px 30px 10px;
+    overflow: hidden;
+}
+.Post-header-profile-image img {
+    width: 100%;
+    height: 100%;
+}
+.Post-header-username {
+    font: 17px "Shabnam FD";
+    color: #262626;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+.Post-header-more-btn {
+    margin-right: 30px;
+    color: #262626;
+    transform: scale(1.5);
+}
+.Post-image {
+    width: 100%;
+}
+.Post-image img {
+    width: 100%;
+}
+.Post-caption {
+    width: 100%;
+    padding: 10px 16px;
+    font: 14px "Shabnam FD";
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.Post-caption-username {
+    font: 17px "Shabnam FD";
+    color: #262626;
+    margin-left: 10px;
+    flex-grow: 1;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.Post-caption-time {
+    font: 13px "Shabnam FD";
+    color: #999999;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.Post-comments {
+    width: 100%;
+    padding: 0 10px 16px 10px;
+}
+.Comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.Comment-user-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.Comment-user-profile img {
+    width: 100%;
+    height: 100%;
+}
+.Comment-like {
+    margin-top: 10px;
+    margin-right: 25px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.Comment-comment {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    font: 14px "Shabnam FD";
+    flex-grow: 1;
+}
+.Comment-detail {
+    margin-left: 20px;
+}
+.Comment-detail span {
+    margin-right: 10px;
+    font: 13px "Shabnam FD";
+    color: #999999;
+}
